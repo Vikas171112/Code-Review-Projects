@@ -41,7 +41,7 @@ src/
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 This project follows a **layered architecture**:
 
@@ -83,8 +83,8 @@ User Action → Component → Hook → Service → State Update → UI Re-render
 ## Getting Started
 
 ```bash
-git clone https://github.com/your-username/your-repo-name
-cd your-repo-name
+git clone https://github.com/Vikas171112/React-Posting-Platform/tree/main/React-Posting-Platform
+cd React-Posting-Platform
 npm install
 npm run dev
 ```
