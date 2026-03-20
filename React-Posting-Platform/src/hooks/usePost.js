@@ -24,10 +24,16 @@ export function usePosts() {
     setPosts((prev) => deletePost(prev, id));
   };
 
-  const editPost = (id, newText) => {
-    setPosts((prev) => updatePost(prev, id, newText));
+  const editPost = (id, newText, newImage) => {
+    setPosts((prev) =>
+      updatePost(
+        prev,
+        id,
+        newText,
+        newImage ? URL.createObjectURL(newImage) : undefined,
+      ),
+    );
   };
-
   return {
     posts,
     addPost,
